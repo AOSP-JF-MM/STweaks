@@ -626,7 +626,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     }
 
     public void profileCheck(View view) {
-        Toast toast = Toast.makeText(getApplicationContext(), getResources().getText(R.string.yourprofile) + Utils.executeRootCommandInThread("cat /data/.alucard/.active.profile"), Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(getApplicationContext(), getResources().getText(R.string.yourprofile) + Utils.executeRootCommandInThread("cat /data/.b--b/.active.profile"), Toast.LENGTH_SHORT);
         toast.show();
     }
 
